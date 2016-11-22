@@ -1,1 +1,1 @@
- ffmpeg ~/Videos/MixinoCatlike/ -c:v libx264 -preset veryfast -movflags +faststart -qp 0 output.mkv
+ ffmpeg -i input.qqch -c:v libx264 -preset veryfast -movflags +faststart -qp 0 output.mkv
